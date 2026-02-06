@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "12go-description-scraper"
+version = "0.1.0"
+description = "Scraper API for 12GO product descriptions"
+authors = ["Fietslease Holland"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+playwright = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
